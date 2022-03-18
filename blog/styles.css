@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+:root {
+  --primary-color: #1072D5;
+  --secondary-color: #0A9E2B;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.25rem;
+}
+
+h1 {
+    font-size: 2rem ;
+}
+
