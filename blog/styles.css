@@ -43,8 +43,21 @@ body {
     text-align: center;
 }
 
+.blog-title .middle-column h2{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+
 .blog-title .right-column {
     width: 15%;
     text-align: right;
 }
 
+.blog-title a {
+    color: #808B96;
+    display: inline-block;
+    padding: 10px 0
+}
