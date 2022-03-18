@@ -10,13 +10,41 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    font-size: 1.25rem;
+    
+    font-family: "Roboto", sans-serif;
 }
 
-h1 {
-    font-size: 2rem ;
+.row {
+    display: flex;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.blog-title {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.blog-title .left-column {
+    width: 15%;
+    text-align: left;
+}
+
+.blog-title .middle-column {
+    width: 70%;
+    text-align: center;
+}
+
+.blog-title .right-column {
+    width: 15%;
+    text-align: right;
 }
 
