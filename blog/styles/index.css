@@ -24,7 +24,7 @@ body {
 }
 
 .container {
-    max-width: 1120px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .blog-content {
-    width: 80%;
+    width: 80vw;
     margin-top: 40px;
     margin: 0 auto;
 }
