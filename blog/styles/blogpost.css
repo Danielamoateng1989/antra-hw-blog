@@ -13,10 +13,20 @@
 }
 
 .blog-post-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+   
 }
+h2.title {
+    margin-top: 0;
+    text-align: center;
+}
+
+.blog-search__icon {
+    grid-column: 4;
+}
+
 
 .blog-post-header .title {
     text-decoration: underline;
