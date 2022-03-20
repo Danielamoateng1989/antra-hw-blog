@@ -1,2 +1,0 @@
-# antra-hw-blog
-Homework
